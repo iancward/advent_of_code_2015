@@ -1,7 +1,6 @@
 with open('input.txt', 'r') as f:
     input = f.read()
 
-
 my_location = [0,0]
 visited_locations = []
 
