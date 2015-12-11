@@ -28,7 +28,6 @@ start = '1113122113'
 
 seq = [start]
 for i in range(0,steps):
-    print('step %s' % (i))
     seq.append(say(look(seq[i])))
 
 print("length: %s" % (len(seq[-1])))
